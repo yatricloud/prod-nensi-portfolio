@@ -17,16 +17,16 @@ A modern, responsive landing page for Nensi Ravaliya's digital presence. Built w
 
 ## 🚀 Live Demo
 
-Visit the live site: [yatharthchauhan.me](https://yatharthchauhan.me)
+Visit the live site: [nensi.yatricloud.com](https://nensi.yatricloud.com){:target="_blank" rel="noopener noreferrer"}
 
 ## 🛠️ Tech Stack
 
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Emotion](https://emotion.sh/)
-- [React Icons](https://react-icons.github.io/react-icons/)
+- [React](https://reactjs.org/){:target="_blank" rel="noopener noreferrer"}
+- [TypeScript](https://www.typescriptlang.org/){:target="_blank" rel="noopener noreferrer"}
+- [Vite](https://vitejs.dev/){:target="_blank" rel="noopener noreferrer"}
+- [Framer Motion](https://www.framer.com/motion/){:target="_blank" rel="noopener noreferrer"}
+- [Emotion](https://emotion.sh/){:target="_blank" rel="noopener noreferrer"}
+- [React Icons](https://react-icons.github.io/react-icons/){:target="_blank" rel="noopener noreferrer"}
 
 ## 📦 Installation
 
@@ -60,15 +60,15 @@ Visit the live site: [yatharthchauhan.me](https://yatharthchauhan.me)
 
 ## 📱 Social Media Links
 
-- [LinkedIn](https://linkedin.com/in/yatharth-chauhan)
-- [GitHub](https://github.com/YatharthChauhan2362)
-- [YouTube](https://www.youtube.com/@yatricloud)
-- [Medium](https://medium.com/@YatharthChauhan)
-- [Instagram](https://instagram.com/yatharthchauhan_yc)
-- [Twitter](https://twitter.com/YatharthStories)
-- [WhatsApp](https://whatsapp.com/channel/0029VakdAHIFHWq60yHA1Q0s)
-- [Discord](https://discord.com/invite/92warrKq9j)
-- [Linktree](https://linktr.ee/yatharthchauhan)
+- [LinkedIn](https://linkedin.com/in/nensi-ravaliya){:target="_blank" rel="noopener noreferrer"}
+- [GitHub](https://github.com/YatharthChauhan2362){:target="_blank" rel="noopener noreferrer"}
+- [YouTube](https://www.youtube.com/@yatricloud){:target="_blank" rel="noopener noreferrer"}
+- [Medium](https://medium.com/@nensiravaliya){:target="_blank" rel="noopener noreferrer"}
+- [Instagram](https://instagram.com/nensiravaliya){:target="_blank" rel="noopener noreferrer"}
+- [Twitter](https://twitter.com/nensiravaliya){:target="_blank" rel="noopener noreferrer"}
+- [WhatsApp](https://whatsapp.com/channel/0029VakdAHIFHWq60yHA1Q0s){:target="_blank" rel="noopener noreferrer"}
+- [Discord](https://discord.com/invite/92warrKq9j){:target="_blank" rel="noopener noreferrer"}
+- [Linktree](https://linktr.ee/nensiravaliya){:target="_blank" rel="noopener noreferrer"}
 
 ## 🎨 Features in Detail
 
@@ -112,18 +112,18 @@ This project is proprietary software. All rights reserved. Unauthorized copying,
 
 See the [LICENSE](LICENSE) file for full terms and conditions.
 
-## ��‍💻 Author
+## 👩‍💻 Author
 
 **Nensi Ravaliya**
-- Website: [yatharthchauhan.me](https://yatharthchauhan.me)
-- Email: [ravaliyanensi@gmail.com](mailto:ravaliyanensi@gmail.com)
-- LinkedIn: [Nensi Ravaliya](https://linkedin.com/in/yatharth-chauhan)
+- Website: [nensi.yatricloud.com](https://nensi.yatricloud.com){:target="_blank" rel="noopener noreferrer"}
+- Email: [contact@nensiravaliya.me](mailto:contact@nensiravaliya.me){:target="_blank" rel="noopener noreferrer"}
+- LinkedIn: [Nensi Ravaliya](https://linkedin.com/in/nensi-ravaliya){:target="_blank" rel="noopener noreferrer"}
 
 ## 🙏 Acknowledgments
 
-- [React Icons](https://react-icons.github.io/react-icons/) for the beautiful icons
-- [Framer Motion](https://www.framer.com/motion/) for the smooth animations
-- [Vite](https://vitejs.dev/) for the blazing fast development experience
+- [React Icons](https://react-icons.github.io/react-icons/){:target="_blank" rel="noopener noreferrer"} for the beautiful icons
+- [Framer Motion](https://www.framer.com/motion/){:target="_blank" rel="noopener noreferrer"} for the smooth animations
+- [Vite](https://vitejs.dev/){:target="_blank" rel="noopener noreferrer"} for the blazing fast development experience
 
 ---
 

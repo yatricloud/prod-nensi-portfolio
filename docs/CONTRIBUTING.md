@@ -1,4 +1,4 @@
-# Contributing to Yatharth Chauhan's Portfolio
+# Contributing to Nensi Ravaliya's Portfolio
 
 Thank you for your interest in contributing to this project. However, please note that this is a proprietary project and contributions are currently not being accepted. This document is for reference purposes only.
 
@@ -53,6 +53,6 @@ This project and everyone participating in it is governed by our Code of Conduct
 
 ## Questions?
 
-For any questions, please contact:
-- Email: ravaliyanensi@gmail.com
-- Website: https://yatharthchauhan.me 
+For any questions or concerns, please contact:
+- Email: [contact@nensiravaliya.me](mailto:contact@nensiravaliya.me){:target="_blank" rel="noopener noreferrer"}
+- Website: [https://nensi.yatricloud.com](https://nensi.yatricloud.com){:target="_blank" rel="noopener noreferrer"} 

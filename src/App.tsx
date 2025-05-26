@@ -82,6 +82,7 @@ const Container = styled.div<{ theme: Theme }>`
   background: ${({ theme }) => theme.background};
   color: ${({ theme }) => theme.text};
   padding: 2rem;
+  padding-bottom: 5rem;
   text-align: center;
   transition: background 0.3s, color 0.3s;
   position: relative;
@@ -91,6 +92,7 @@ const Container = styled.div<{ theme: Theme }>`
 
   @media (max-width: 768px) {
     padding: 1.5rem;
+    padding-bottom: 4rem;
     min-height: 100vh;
   }
 `;
@@ -159,10 +161,12 @@ const EmailLink = styled(motion.a)<{ theme: Theme }>`
   color: ${({ theme }) => theme.text};
   text-decoration: none;
   margin-top: 2rem;
+  margin-bottom: 3rem;
   font-size: 1.2rem;
   
   @media (max-width: 768px) {
     margin-top: 1rem;
+    margin-bottom: 2rem;
     font-size: 1rem;
   }
   
@@ -171,9 +175,9 @@ const EmailLink = styled(motion.a)<{ theme: Theme }>`
   }
 `;
 
-const AnimatedText = styled(motion.div)<{ theme: Theme }>`
+const AnimatedText = styled(motion.div)<{ theme: Theme; isDark: boolean }>`
   font-size: 1.2rem;
-  color: ${({ theme }) => theme.secondary};
+  color: ${({ isDark }) => isDark ? '#ffffff' : '#000000'};
   margin-top: 1rem;
 
   @media (max-width: 768px) {
@@ -212,14 +216,14 @@ const ButtonContainer = styled(motion.div)`
   }
 `;
 
-const AppointmentButton = styled(motion.a)<{ theme: Theme }>`
+const AppointmentButton = styled(motion.a)<{ theme: Theme; isDark: boolean }>`
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 1rem 2rem;
   margin-top: 0;
-  background: ${({ theme }) => theme.secondary};
-  color: ${({ theme }) => theme.background};
+  background: ${({ isDark }) => isDark ? '#ffffff' : '#000000'};
+  color: ${({ isDark }) => isDark ? '#000000' : '#ffffff'};
   border-radius: 50px;
   font-size: 1.2rem;
   font-weight: 600;
@@ -235,7 +239,8 @@ const AppointmentButton = styled(motion.a)<{ theme: Theme }>`
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-    background: ${({ theme }) => theme.text};
+    background: ${({ isDark }) => isDark ? '#f0f0f0' : '#333333'};
+    color: ${({ isDark }) => isDark ? '#000000' : '#ffffff'};
   }
 `;
 
@@ -358,10 +363,10 @@ const App = () => {
     { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/nencyravaliya28/', label: 'LinkedIn' },
     
     { icon: <FaYoutube />, url: 'https://www.youtube.com/@yatricloud?sub_confirmation=1&sub_confirmation=1', label: 'YouTube' },
-    { icon: <FaWhatsapp />, url: 'https://whatsapp.com/channel/0029VakdAHIFHWq60yHA1Q0s', label: 'WhatsApp' },
-    { icon: <FaGithub />, url: 'https://github.com/YatharthChauhan2362', label: 'GitHub' },
-    { icon: <FaMedium />, url: 'https://medium.com/@ravaliyanensi', label: 'Medium' },
     { icon: <FaInstagram />, url: 'https://instagram.com/nensiravaliya', label: 'Instagram' },
+    { icon: <FaGithub />, url: 'https://github.com/YatharthChauhan2362', label: 'GitHub' },
+    { icon: <FaWhatsapp />, url: 'https://whatsapp.com/channel/0029VakdAHIFHWq60yHA1Q0s', label: 'WhatsApp' },
+    { icon: <FaMedium />, url: 'https://medium.com/@ravaliyanensi', label: 'Medium' },
     { icon: <FaTwitter />, url: 'https://twitter.com/NencyRavaliya', label: 'Twitter' },
     { icon: <FaDiscord />, url: 'https://discord.com/invite/92warrKq9j', label: 'Discord' },
     { icon: <SiLinktree />, url: 'https://linktr.ee/nensiravaliya', label: 'Linktree' },
@@ -387,13 +392,13 @@ const App = () => {
         <meta property="og:title" content="Nensi Ravaliya - Let's Connect & Build Together" />
         <meta property="og:description" content="Connect with Nensi Ravaliya - Founder, YouTuber, Content Creator & Community Builder. Let's collaborate, learn, and grow together in the world of technology." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yatharthchauhan.me" />
+        <meta property="og:url" content="https://nensi.yatricloud.com" />
         <meta property="og:image" content="https://raw.githubusercontent.com/YatharthChauhan2362/prod-public-images/refs/heads/main/nensiravaliya.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Nensi Ravaliya - Let's Connect & Build Together" />
         <meta name="twitter:description" content="Connect with Nensi Ravaliya - Founder, YouTuber, Content Creator & Community Builder. Let's collaborate, learn, and grow together in the world of technology." />
         <meta name="twitter:image" content="https://raw.githubusercontent.com/YatharthChauhan2362/prod-public-images/refs/heads/main/nensiravaliya.jpg" />
-        <link rel="canonical" href="https://yatharthchauhan.me" />
+        <link rel="canonical" href="https://nensi.yatricloud.com" />
       </Helmet>
       <BackgroundContainer>
         {backgroundElements.map((element, index) => {
@@ -467,8 +472,9 @@ const App = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.8 }}
           theme={theme === 'dark' ? darkTheme : lightTheme}
+          isDark={theme === 'dark'}
         >
-          {getGreeting()} 👋
+          {getGreeting()} Yatris 👋
         </AnimatedText>
 
         <ButtonContainer
@@ -482,8 +488,10 @@ const App = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             theme={theme === 'dark' ? darkTheme : lightTheme}
+            isDark={theme === 'dark'}
           >
-Join the Community          </AppointmentButton>
+            Join the Community
+          </AppointmentButton>
 
           <YouTubeButton
             href="https://www.youtube.com/@yatricloud?sub_confirmation=1"
@@ -521,6 +529,8 @@ Join the Community          </AppointmentButton>
 
         <EmailLink
           href="mailto:ravaliyanensi@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2.2, duration: 0.8 }}
