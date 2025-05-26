@@ -364,7 +364,7 @@ const App = () => {
     
     { icon: <FaYoutube />, url: 'https://www.youtube.com/@yatricloud?sub_confirmation=1&sub_confirmation=1', label: 'YouTube' },
     { icon: <FaInstagram />, url: 'https://instagram.com/nensiravaliya', label: 'Instagram' },
-    { icon: <FaGithub />, url: 'https://github.com/YatharthChauhan2362', label: 'GitHub' },
+    { icon: <FaGithub />, url: 'https://github.com/Nency-Ravaliya', label: 'GitHub' },
     { icon: <FaWhatsapp />, url: 'https://whatsapp.com/channel/0029VakdAHIFHWq60yHA1Q0s', label: 'WhatsApp' },
     { icon: <FaMedium />, url: 'https://medium.com/@ravaliyanensi', label: 'Medium' },
     { icon: <FaTwitter />, url: 'https://twitter.com/NencyRavaliya', label: 'Twitter' },
