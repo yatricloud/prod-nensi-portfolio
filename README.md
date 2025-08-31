@@ -1,6 +1,6 @@
 # Nensi Ravaliya - Let's Connect
 
-![Portfolio Preview](https://raw.githubusercontent.com/YatharthChauhan2362/prod-public-images/refs/heads/main/nensiravaliya.jpg)
+![Portfolio Preview](https://raw.githubusercontent.com/yatricloud/yatri-images/refs/heads/main/Team%20Yatri%20Cloud/Nensi%20Ravaliya/profile-nensi-ravaliya.png)
 
 A modern, responsive landing page for Nensi Ravaliya's digital presence. Built with React, TypeScript, and styled-components, featuring a sleek black and white theme with smooth animations and social media integration.
 
@@ -32,7 +32,7 @@ Visit the live site: [nensi.yatricloud.com](https://nensi.yatricloud.com){:targe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YatharthChauhan2362/prod-nensi-portfolio.git
+   git clone https://github.com/Nency-Ravaliya/prod-nensi-portfolio.git
    ```
 
 2. Navigate to the project directory:
@@ -61,7 +61,7 @@ Visit the live site: [nensi.yatricloud.com](https://nensi.yatricloud.com){:targe
 ## 📱 Social Media Links
 
 - [LinkedIn](https://linkedin.com/in/nensi-ravaliya){:target="_blank" rel="noopener noreferrer"}
-- [GitHub](https://github.com/YatharthChauhan2362){:target="_blank" rel="noopener noreferrer"}
+- [GitHub](https://github.com/Nency-Ravaliya){:target="_blank" rel="noopener noreferrer"}
 - [YouTube](https://www.youtube.com/@yatricloud){:target="_blank" rel="noopener noreferrer"}
 - [Medium](https://medium.com/@nensiravaliya){:target="_blank" rel="noopener noreferrer"}
 - [Instagram](https://instagram.com/nensiravaliya){:target="_blank" rel="noopener noreferrer"}

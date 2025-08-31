@@ -393,11 +393,11 @@ const App = () => {
         <meta property="og:description" content="Connect with Nensi Ravaliya - Founder, YouTuber, Content Creator & Community Builder. Let's collaborate, learn, and grow together in the world of technology." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://nensi.yatricloud.com" />
-        <meta property="og:image" content="https://raw.githubusercontent.com/YatharthChauhan2362/prod-public-images/refs/heads/main/nensiravaliya.jpg" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/yatricloud/yatri-images/refs/heads/main/Team%20Yatri%20Cloud/Nensi%20Ravaliya/profile-nensi-ravaliya.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Nensi Ravaliya - Let's Connect & Build Together" />
         <meta name="twitter:description" content="Connect with Nensi Ravaliya - Founder, YouTuber, Content Creator & Community Builder. Let's collaborate, learn, and grow together in the world of technology." />
-        <meta name="twitter:image" content="https://raw.githubusercontent.com/YatharthChauhan2362/prod-public-images/refs/heads/main/nensiravaliya.jpg" />
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/yatricloud/yatri-images/refs/heads/main/Team%20Yatri%20Cloud/Nensi%20Ravaliya/profile-nensi-ravaliya.png" />
         <link rel="canonical" href="https://nensi.yatricloud.com" />
       </Helmet>
       <BackgroundContainer>
@@ -440,7 +440,7 @@ const App = () => {
         </ThemeToggle>
         
         <ProfileImage
-          src="https://raw.githubusercontent.com/YatharthChauhan2362/prod-public-images/refs/heads/main/nensiravaliya.jpg"
+          src="https://raw.githubusercontent.com/yatricloud/yatri-images/refs/heads/main/Team%20Yatri%20Cloud/Nensi%20Ravaliya/profile-nensi-ravaliya.png"
           alt="Nensi Ravaliya"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
