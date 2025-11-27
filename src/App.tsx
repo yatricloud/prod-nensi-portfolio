@@ -490,7 +490,7 @@ const App = () => {
             theme={theme === 'dark' ? darkTheme : lightTheme}
             isDark={theme === 'dark'}
           >
-            Schedule a Meeting
+            DevOps Career Guidance
           </AppointmentButton>
 
           <YouTubeButton
@@ -548,7 +548,7 @@ const App = () => {
           theme={theme === 'dark' ? darkTheme : lightTheme}
           isDark={theme === 'dark'}
         >
-          © 2025 <a href="https://linkedin.com/in/nensi-ravaliya" target="_blank" rel="noopener noreferrer">Nensi Ravaliya</a> | Designed by <a href="https://uimitra.com" target="_blank" rel="noopener noreferrer">Uimitra</a>.
+          © 2025 <a href="https://www.linkedin.com/in/nencyravaliya28/" target="_blank" rel="noopener noreferrer">Nensi Ravaliya</a> | Designed by <a href="https://uimitra.com" target="_blank" rel="noopener noreferrer">Uimitra</a>.
         </Footer>
       </Container>
     </ThemeProvider>
