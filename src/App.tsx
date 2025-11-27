@@ -483,14 +483,14 @@ const App = () => {
           transition={{ delay: 1.5, duration: 0.8 }}
         >
           <AppointmentButton
-            href="https://community.yatricloud.com"
+            href="https://topmate.io/nensiravaliya"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             theme={theme === 'dark' ? darkTheme : lightTheme}
             isDark={theme === 'dark'}
           >
-            Join the Community
+            Schedule a Meeting
           </AppointmentButton>
 
           <YouTubeButton
